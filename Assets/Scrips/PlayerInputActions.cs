@@ -34,6 +34,8 @@ public class PlayerInputActions
         public InputAction Character { get; set; } = new InputAction("Character", InputActionType.Button);
         public InputAction Shop { get; set; } = new InputAction("Shop", InputActionType.Button);
         public InputAction Click { get; set; } = new InputAction("Click", InputActionType.Button);
+        public InputAction ToggleInventory { get; set; } = new InputAction("ToggleInventory", InputActionType.Button);
+        public InputAction OpenCharacter { get; set; } = new InputAction("OpenCharacter", InputActionType.Button);
 
         public void Enable()
         {
@@ -47,6 +49,8 @@ public class PlayerInputActions
             Character?.Enable();
             Shop?.Enable();
             Click?.Enable();
+            ToggleInventory?.Enable();
+            OpenCharacter?.Enable();
         }
 
         public void Disable()
@@ -61,6 +65,8 @@ public class PlayerInputActions
             Character?.Disable();
             Shop?.Disable();
             Click?.Disable();
+            ToggleInventory?.Disable();
+            OpenCharacter?.Disable();
         }
     }
 }
