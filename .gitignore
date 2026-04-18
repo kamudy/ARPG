@@ -96,3 +96,10 @@ InitTestScene*.unity*
 
 # Auto-generated scenes by play mode tests
 /[Aa]ssets/[Ii]nit[Tt]est[Ss]cene*.unity*
+
+# Large files that exceed GitHub limits (over 100MB)
+Assets/TerrainTexturesPackFree/TerrainTextures/GrassUV01.png
+Assets/TerrainTexturesPackFree/TerrainTextures/GrassUV01_N.png
+Assets/TerrainTexturesPackFree/TerrainTextures/GrassUV02.png
+Assets/TerrainTexturesPackFree/TerrainTextures/GrassUV02_N.png
+Assets/TerrainTexturesPackFree/DemoScene/Demo.unity
